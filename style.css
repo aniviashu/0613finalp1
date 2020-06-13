@@ -1,0 +1,145 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+ */ border:solid 2px pink;
+  
+
+}
+html,body{
+  background-color:#fce8fb;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  height:100%;
+  margin:0;
+  font-size:12.92px;
+  font-family:微軟正黑體;
+  fony-weight:700;
+}
+a{
+  color:initial;
+  text-decoration:initial;
+}
+.box{
+  width:380px;
+  background-color:#fff;
+  box-shadow:0px 0px 35px rgba(0,0,0,0.3);
+  transition:0.5s
+}
+.box:hover{
+  box-shadow:5px 5px 60px raba(0,0,0,0.4);
+  transform:translate(-5px,-5px);
+}
+.box:hover.top{
+  height:250px;
+  
+}
+.top{
+  background-image:url(https://cw1.tw/CH/club/images/article/201611/article-581c4c091f8c3.jpg);
+  background-position:cover;
+  background-size:cover;
+  height:330px;
+  position:relative;
+  transition:0.5s;
+}
+.top .tag{
+  width:25px;
+  height:50px;
+  background-color: pink;
+  float:right;
+  margin-right:20px;
+}
+.top .name{
+position:absolute;
+  left:0px;
+  bottom:0px;
+  padding:5px 15px;
+  letter-spacing:2px;
+  color:white;
+  font-weight:3350;
+  background: linear-gradient(transparent 0%,#edca80 100%);
+  eidth:100%;
+  padding-top:30px;
+  padding-bottom:5px;
+}
+.top .name .amallText{
+  font-size:14px;
+}
+.heart{
+  position:fixed;
+  width:100px;
+  height:100px;
+  margin:35%;
+  transition: all  2s cubic-bezier(0.1,0.045,0.355,-1) 0.5s;
+}
+.heart:hover{
+  transform:rotate(360deg);
+  margin-top:0px;
+}
+.h1{
+  height:50px;
+  width:50px;
+  position:absolute;
+  top:0px;
+  left:0px;
+  border-radius:50%;
+  background-color:#f88;
+}
+.h2{
+ height:50px;
+  width:50px;
+  position:absolute;
+  top:0px;
+  left:40px;
+  border-radius:50%;
+  background-color:#f88; 
+}
+.h3{
+ height:49px;
+  width:49px;
+  position:absolute;
+  top:21px;
+  left:21px;
+  transform:rotate(45deg);
+  background-color:#f88; 
+}
+.bottom{
+  padding:10px 20px 20px 20px
+    
+}
+.bottom li{
+  padding:5px 0px
+}
+.bottom h3{
+display:inline-block;
+}
+.botttom ul{
+  list-style:none;
+  padding-left:0;
+  
+}
+.buttons{
+margin-top:30px;
+}
+.buttons .btn{
+display:inline-block;
+  padding:10px 25px;
+  letter-spacing:2px;
+}
+.btnWebsite{
+  background-color: #ffffff;
+  color:white;
+  transition:0.5s;
+}
+.btnWebsite:hover{
+  background-color: #d6f5ff;
+}
+.btnNews{
+  border:solid 1px black;
+  float:right;
+}
+.btnNews:hover{
+  background-color: #d6f5ff;
+}
